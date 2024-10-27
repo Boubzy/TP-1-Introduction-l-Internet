@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Festival de la Gastronomie et de la Cuisine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="inscription.html" class="active">Inscription</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="intervenants.html">Intervenants</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="sponsors.html">Sponsors</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Inscription</h1>
+        <p>Inscrivez-vous pour participer au Festival de la Gastronomie.</p>
+    </header>
+    <section class="register-form">
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Informations Personnelles</legend>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="name">Prénom :</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Numéro de téléphone :</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="gender">Sexe :</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Homme</option>
+                    <option value="female">Femme</option>
+                    <option value="other">Autre</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Informations Professionnelles</legend>
+                <label for="company">Entreprise/Organisation :</label>
+                <input type="text" id="company" name="company">
+                
+                <label for="job">Titre du poste :</label>
+                <input type="text" id="job" name="job">
+                
+                <label for="sector">Secteur d'activité :</label>
+                <input type="text" id="sector" name="sector">
+            </fieldset>
+
+            <fieldset>
+                <legend>Choix du Billet</legend>
+                <label for="ticket">Type de billet :</label>
+                <select id="ticket" name="ticket" required>
+                    <option value="standard">Standard - 50$</option>
+                    <option value="vip">VIP - 100$</option>
+                    <option value="Vvip">VVIP - 150$</option>
+                </select>
+                
+                <label for="promo">Code promo :</label>
+                <input type="text" id="promo" name="promo">
+            </fieldset>
+
+            <div class="form-buttons">
+                <button type="submit" class="btn">S'inscrire</button>
+                <button type="reset" class="btn-2">Réinitialiser</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

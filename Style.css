@@ -1,0 +1,390 @@
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: #2C3E50; /* Couleur de fond de la barre */
+    padding: 10px;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #D2B48C; /* Couleur des liens */
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #F39C12; /* Couleur des liens au survol */
+}
+nav ul li a.active {
+    color: #C0392B; /* Couleur du lien actif */
+}
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #EFEFEF; /* Couleur de fond pour le header */
+}
+header h1 {
+    font-family: 'Playfair Display', serif; /* Utilise une police élégante */
+    color: #2C3E50;
+    font-size: 2.5em;
+}
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+.btn {
+    display: inline-block;
+    background-color: #C0392B;
+    color: #FFF;
+    padding: 20px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.btn:hover {
+    background-color: #A93226; /* Couleur au survol */
+}
+.image-placeholder {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+.program {
+    padding: 20px;
+    text-align: center;
+}
+.program table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.program th, .program td {
+    padding: 10px;
+    border: 1px solid #DDD;
+}
+.program th {
+    background-color: #F39C12;
+    color: #FFF;
+}
+/* Styles généraux pour toutes les pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8F8;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: #2C3E50;
+    padding: 10px;
+    margin: 0;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #D2B48C;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a.active, nav ul li a:hover {
+    color: #F39C12;
+}
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #EFEFEF;
+    border-bottom: 2px solid #DDD;
+}
+header h1 {
+    color: #2C3E50;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+.btn {
+    display: inline-block;
+    background-color: #C0392B;
+    color: #FFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #A93226;
+}
+/* Styles pour les sections de contenu */
+section {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+/* Styles spécifiques pour les tables (Programme) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #DDD;
+    text-align: left;
+}
+th {
+    background-color: #F39C12;
+    color: #FFF;
+    text-align: center;
+}
+td {
+    background-color: #FFF;
+    color: #333;
+}
+/* Styles pour les formulaires (Inscription et Contact) */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label {
+    font-weight: bold;
+    color: #2C3E50;
+}
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+/* Styles pour les cartes de chefs et partenaires */
+.chefs, .partners {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.chefs .chef, .partners .partner {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.chefs .chef img, .partners .partner img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.chefs .chef h3, .partners .partner h3 {
+    color: #C0392B;
+    margin: 10px 0;
+}
+.chefs .chef p, .partners .partner p {
+    color: #555;
+    line-height: 1.5;
+}
+.partners .partner a {
+    display: block;
+    margin-top: 10px;
+    color: #F39C12;
+    text-decoration: none;
+}
+.partners .partner a:hover {
+    text-decoration: underline;
+}
+/* Styles pour les sections du formulaire */
+fieldset {
+    border: 2px solid #DDD;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+legend {
+    font-weight: bold;
+    color: #2C3E50;
+    padding: 0 10px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2C3E50;
+}
+input, select, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.form-buttons .btn-reset {
+    background-color: #DDD;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+.form-buttons .btn-reset:hover {
+    background-color: #BBB;
+}
+.btn-2 {
+    display: inline-block;
+    background-color: #e9862a;
+    color: #FFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 130.5%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}
+.social-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.social-links a {
+    color: #333;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+.social-links a:hover {
+    color: #F39C12;
+}
+.contact-info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+.contact-info h2 {
+    color: #2C3E50;
+    margin-bottom: 15px;
+}
+.contact-info p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact-info i {
+    margin-right: 10px;
+    color: #F39C12;
+}
+.social-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+.social-links a {
+    color: #333;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+.social-links a:hover {
+    color: #F39C12;
+}
+.map {
+    margin-top: 50px;
+}
+.contact-form {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form h2 {
+    color: #2C3E50;
+    margin-bottom: 15px;
+}
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #2C3E50;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+.contact-form .btn {
+    background-color: #C0392B;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+.contact-form .btn:hover {
+    background-color: #A93226;
+}
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1000px;
+}
+.partner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: #F9F9F9;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.partner:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.partner img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    padding: 10px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Festival de la Gastronomie et de la Cuisine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="inscription.html">Inscription</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="intervenants.html">Chefs</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="sponsors.html">Partenaires</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Contactez-nous</h1>
+        <p>Pour toute question ou information supplémentaire, n'hésitez pas à nous contacter.</p>
+    </header>
+    <section class="contact-form">
+        <form action="#" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="name">Prénom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="gender">Sexe :</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Homme</option>
+                <option value="female">Femme</option>
+                <option value="other">Autre</option>
+            </select>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>
+    <section class="contact-info">
+        <h2>Coordonnées de l'événement</h2>
+        <p><i class="fa-solid fa-envelope"></i> Email : <a href="mailto : aboubacarconde003@gmail.com">aboubacarconde003@gmail.com</a></p>
+        <p><i class="fa-solid fa-phone"></i> Téléphone : <a href="tel:1 418-446-2423">+1 418-446-2423</a></p>
+        <p><i class="fa-solid fa-location-dot"></i> Adresse : 5344 Rue Bossuet, Lévis, Québec</p>
+        
+        <div class="social-links">
+            <a href="https://www.facebook.com/festivaldelagastronomieQc" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com/festivaldelagastronomieQc" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/festivaldelagastronomieQc" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/festivaldelagastronomieQc" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+        <h2>Localisation</h2>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2731.6894037795023!2d-71.1781410230321!3d46.79072427112674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb895aad4e28917%3A0x52f90006421dce70!2s5344%20Rue%20Bossuet%2C%20L%C3%A9vis%2C%20QC%20G6V%205B1!5e0!3m2!1sfr!2sca!4v1729662525669!5m2!1sfr!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+</body>
+</html>
